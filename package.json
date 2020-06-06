@@ -1,0 +1,25 @@
+{
+  "name": "last-man-standing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o src/assets/css/ --recursive",
+    "dev": "node --inspect src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5ocjal/lastManStanding_phaser3.git"
+  },
+  "author": "r.tupacz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5ocjal/lastManStanding_phaser3/issues"
+  },
+  "homepage": "https://github.com/5ocjal/lastManStanding_phaser3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1",
+    "socket.io": "^2.3.0"
+  }
+}

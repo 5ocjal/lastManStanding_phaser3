@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+body {
+    background: #f1d116;
+}
+
+h1 {
+    font-family: 'Bowlby One SC',
+        cursive;
+    color: rgba(53, 51, 51, 0.842);
+    text-align: center;
+    justify-content: center;
+}
+
+canvas {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #f1d116;
+    box-shadow: -8px -8px 16px #a6900f,
+        8px 8px 16px #ffff1d;
+}
